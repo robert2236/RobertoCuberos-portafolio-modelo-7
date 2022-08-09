@@ -66,6 +66,7 @@ header {
 li {
   margin: 0 3rem 0 3rem;
 }
+
 .nav-menu ul {
   display: flex;
   align-items: right;
@@ -81,6 +82,7 @@ li {
 .menu-icon,
 #check {
   display: none;
+  color: #040203;
 }
 
 a {
@@ -397,8 +399,16 @@ i.fa {
     padding-bottom: 2rem;
   }
 }
+@media (max-width: 48rem) {
+  body {
+    margin-left: -3rem;
+    margin-right:-3rem;
+  }
 
 @media (max-width: 43rem) {
+  .menu-icon {
+    color: #ffffff;
+  }
   body {
     margin-right: 1.5rem;
     margin-left: 0.5rem;
@@ -431,14 +441,15 @@ i.fa {
 
 @media (max-width: 35rem) {
   body {
-    margin-right: 1rem;
-    margin-left: 1.5rem;
+    margin-right: -2rem;
+    margin-left: -2rem;
   }
   h1 {
     margin-left: 2rem;
   }
 
   .portfolio img {
-    width: 33rem;
+    width: 32rem;
+ 
   }
 }
