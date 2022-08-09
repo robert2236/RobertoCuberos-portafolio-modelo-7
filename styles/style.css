@@ -452,30 +452,20 @@ i.fa {
     margin-top: -21.5rem;
   }
 }
-@media (max-width: 36rem) {
-  @media (max-width: 35rem) {
-    body {
-      margin-left: 1rem;
-    }
 
-    .portfolio img {
-      width: 100%;
-      margin-left: -8rem;
-    }
-  }
-}
 @media (max-width: 36rem) {
   body {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
   h1 {
-    margin-left: -10rem;
+    margin-left: -13rem;
   }
 
   .social-media {
-    margin-left: -8rem;
+    margin-left: -5rem;
   }
   .porfolio img {
     width: 100%;
+    padding-right: 5rem;
   }
 }
