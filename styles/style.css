@@ -82,7 +82,8 @@ li {
 .menu-icon,
 #check {
   display: none;
-  color: #040203;
+  color: var(--black);
+  margin-right: 1rem;
 }
 
 a {
@@ -399,22 +400,33 @@ i.fa {
     padding-bottom: 2rem;
   }
 }
-@media (max-width: 48rem) {
-  body {
-    margin-left: -3rem;
-    margin-right:-3rem;
+@media (max-width: 46rem) {
+  .menu-icon {
+    margin-right: 3rem;
   }
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  h1 {
+    padding-left: 7rem;
+  }
+  .portfolio img {
+    margin-left: -5rem;
+    width: 1rem;
+  }
+}
 
 @media (max-width: 43rem) {
   .menu-icon {
     color: #ffffff;
   }
   body {
-    margin-right: 1.5rem;
-    margin-left: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   h1 {
-    margin-left: 4rem;
+    text-align: center;
   }
 
   h4 {
@@ -428,7 +440,8 @@ i.fa {
     margin-top: -10rem;
   }
   .portfolio img {
-    width: 39rem;
+    width: 100%;
+    padding-left: 5rem;
   }
   .grip {
     margin-bottom: 15rem;
@@ -438,18 +451,18 @@ i.fa {
     margin-top: -21.5rem;
   }
 }
+@media (max-width: 36rem) {
+  @media (max-width: 35rem) {
+    body {
+      margin-left: 0rem;
+    }
+    h1 {
+      margin-left: -3rem;
+    }
 
-@media (max-width: 35rem) {
-  body {
-    margin-right: -2rem;
-    margin-left: -2rem;
-  }
-  h1 {
-    margin-left: 2rem;
-  }
-
-  .portfolio img {
-    width: 32rem;
- 
+    .portfolio img {
+      width: 100%;
+      margin-left: -8rem;
+    }
   }
 }
