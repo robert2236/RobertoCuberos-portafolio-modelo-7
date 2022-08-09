@@ -404,13 +404,14 @@ i.fa {
   .menu-icon {
     margin-right: 3rem;
   }
+  h1 {
+    padding-left: 15rem;
+  }
   body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  h1 {
-    padding-left: 10rem;
-  }
+
   .portfolio img {
     margin-left: -5rem;
     width: 1rem;
@@ -454,10 +455,7 @@ i.fa {
 @media (max-width: 36rem) {
   @media (max-width: 35rem) {
     body {
-      margin-left: 0rem;
-    }
-    h1 {
-      margin-left: -3rem;
+      margin-left: 1rem;
     }
 
     .portfolio img {
