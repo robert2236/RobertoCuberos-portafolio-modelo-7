@@ -466,3 +466,18 @@ i.fa {
     }
   }
 }
+@media (max-width: 36rem) {
+  body {
+    padding-left: 3rem;
+  }
+  h1 {
+    margin-left: -10rem;
+  }
+
+  .social-media {
+    margin-left: -8rem;
+  }
+  .porfolio img {
+    width: 100%;
+  }
+}
