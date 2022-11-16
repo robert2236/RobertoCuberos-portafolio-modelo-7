@@ -4,7 +4,7 @@
   <h3>Autor 🤠</h3>
   <p>Roberto Cuberos</p>
   <h3>URL para ver el resultado 👁‍🗨 </h3>
-<p>✔ Para ver el resultado final puedes verlo aquí! https://cheerful-mochi-2f0deb.netlify.app/</p>
+<p>✔ Para ver el resultado final puedes verlo aquí! https://app.netlify.com/sites/portafolio-desarrollador-web </p>
   <h3>Tecnologias usadas 🛠️ </h3>
   <p>· HTML5 </p>
   <p>· CSS3 </p>
